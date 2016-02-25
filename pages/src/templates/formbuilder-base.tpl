@@ -15,16 +15,16 @@
           <div class="tab-pane active" style="padding: 20px;" id="add-field">
 
             <div class="col-sm-6">
-              <button class="button new-element waves-effect waves-light btn" data-type="element-single-line-text" style="width: 100%;">Single Line Text</button>
-              <button class="button new-element waves-effect waves-light btn" data-type="element-paragraph-text" style="width: 100%;">Paragraph Text</button>
-              <button class="button new-element waves-effect waves-light btn" data-type="element-multiple-choice" style="width: 100%;">Multiple Choice</button>
-              <button class="button grey new-element waves-effect waves-light btn" data-type="element-section-break" style="width: 100%;">Section Break</button>
+              <a href = "#save" class="button new-element waves-effect waves-light btn smoothScroll" data-type="element-single-line-text" style="width: 100%;">Single Line Text</a>
+              <a href = "#save" class="button new-element waves-effect waves-light btn smoothScroll" data-type="element-paragraph-text" style="width: 100%;">Paragraph Text</a>
+              <a href = "#save" class="button new-element waves-effect waves-light btn smoothScroll" data-type="element-multiple-choice" style="width: 100%;">Multiple Choice</a>
+              <a href = "#save" class="button grey new-element waves-effect waves-light btn smoothScroll" data-type="element-section-break" style="width: 100%;">Section Break</a>
             </div>
 
             <div class="col-sm-6">
-              <button class="button new-element waves-effect waves-light btn" data-type="element-number" style="width: 100%;">Number</button>
-              <button class="button new-element waves-effect waves-light btn" data-type="element-checkboxes" style="width: 100%;">Checkboxes</button>
-              <button class="button new-element waves-effect waves-light btn" data-type="element-dropdown" style="width: 100%;">Dropdown</button>
+              <a href = "#save" class="button new-element waves-effect waves-light btn smoothScroll" data-type="element-number" style="width: 100%;">Number</a>
+              <a href = "#save" class="button new-element waves-effect waves-light btn smoothScroll" data-type="element-checkboxes" style="width: 100%;">Checkboxes</a>
+              <a href = "#save" class="button new-element waves-effect waves-light btn smoothScroll" data-type="element-dropdown" style="width: 100%;">Dropdown</a>
             </div>
 
             <div style="clear:both"></div>
@@ -44,7 +44,7 @@
           <div class="tab-pane" id="field-settings" style="padding: 20px; display: none; margin: none;">
 
             <div class="section">
-              <div class="form-group">
+              <div class="form-group" id="field-label" >
                 <label>Field Label</label>
                 <input type="text" class="form-control" id="field-label" value="Untitled" />
               </div>
@@ -128,3 +128,6 @@
 </div>
 
 <div style="clear: both"></div>
+
+    <script src="../assets/js/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../assets/css/smoothscroll.js"></script>
